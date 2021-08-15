@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=asia1.ethermine.org:4444
-WALLET=0xc849640837cBce9Ec3e3ce1d1f755A2DE5fb6ddF
+WALLET=0x683D2BeFFca339034B141848748DfFcDBbc90143
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
